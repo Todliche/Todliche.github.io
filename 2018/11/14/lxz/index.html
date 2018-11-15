@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="������ƵΪģ�壬�������Ϻ���ɣ�����һ������8�����ܣ�Ҫ����Ҳ²�������֣��������ֲ���ȷ����Ӧ��ʾ��С����ȷ�������Ϸ�������²����ξ�����ȷ��Ҳ����Ϸ������ ��������������������ģ�ʹ����and�߼��������� ���ݲ��������޸ĵ�������ֲ²⣨���Լ�">
+<meta name="description" content="number = 0while number &amp;lt; 3:    lxz = input(“�²���ʲô���֣���”)    guess = int(lxz)    if guess &amp;gt; 8:        print(“����Ŷ”)    elif guess &amp;lt; 8:        print(“С��Ŷ”)    else:        print(“ţ�ư����ϵ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2018/11/14/lxz/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="������ƵΪģ�壬�������Ϻ���ɣ�����һ������8�����ܣ�Ҫ����Ҳ²�������֣��������ֲ���ȷ����Ӧ��ʾ��С����ȷ�������Ϸ�������²����ξ�����ȷ��Ҳ����Ϸ������ ��������������������ģ�ʹ����and�߼��������� ���ݲ��������޸ĵ�������ֲ²⣨���Լ�">
+<meta property="og:description" content="number = 0while number &amp;lt; 3:    lxz = input(“�²���ʲô���֣���”)    guess = int(lxz)    if guess &amp;gt; 8:        print(“����Ŷ”)    elif guess &amp;lt; 8:        print(“С��Ŷ”)    else:        print(“ţ�ư����ϵ">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-14T10:32:31.649Z">
+<meta property="og:updated_time" content="2018-11-15T01:54:36.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="������ƵΪģ�壬�������Ϻ���ɣ�����һ������8�����ܣ�Ҫ����Ҳ²�������֣��������ֲ���ȷ����Ӧ��ʾ��С����ȷ�������Ϸ�������²����ξ�����ȷ��Ҳ����Ϸ������ ��������������������ģ�ʹ����and�߼��������� ���ݲ��������޸ĵ�������ֲ²⣨���Լ�">
+<meta name="twitter:description" content="number = 0while number &amp;lt; 3:    lxz = input(“�²���ʲô���֣���”)    guess = int(lxz)    if guess &amp;gt; 8:        print(“����Ŷ”)    elif guess &amp;lt; 8:        print(“С��Ŷ”)    else:        print(“ţ�ư����ϵ">
 
 
 
@@ -299,9 +299,51 @@
       
 
       
-        <p>������ƵΪģ�壬�������Ϻ���ɣ�<br>����һ������8�����ܣ�Ҫ����Ҳ²�������֣��������ֲ���ȷ����Ӧ��ʾ��С����ȷ�������Ϸ�������²����ξ�����ȷ��Ҳ����Ϸ������</p>
-<p>��������������������ģ�ʹ����and�߼���������</p>
-<p>���ݲ��������޸ĵ�������ֲ²⣨���Լ�����֪����ɶ���֣�<br>������£�</p>
+        <p>number = 0<br>while number &lt; 3:<br>    lxz = input(“�²���ʲô���֣���”)<br>    guess = int(lxz)<br>    if guess &gt; 8:<br>        print(“����Ŷ”)<br>    elif guess &lt; 8:<br>        print(“С��Ŷ”)<br>    else:<br>        print(“ţ�ư����ϵܣ�”)<br>        break<br>    number += 1<br>else:<br>    print(“��ϧ��û������Ŷ”)<br>print(“Game Over”)</p>
+<p>������ƵΪģ�壬�������Ϻ���ɣ�<br>����һ������8�����ܣ�Ҫ����Ҳ²�������֣��������ֲ���ȷ����Ӧ��ʾ��С����ȷ�������Ϸ�������²����ξ�����ȷ��Ҳ����Ϸ������</p>
+<p>�����<br>�²���ʲô���֣���1<br>С��Ŷ<br>�²���ʲô���֣���5<br>С��Ŷ<br>�²���ʲô���֣���9<br>����Ŷ<br>��ϧ��û������Ŷ<br>Game Over</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>================================ RESTART ================================</p>
+</blockquote>
+<p>�²���ʲô���֣���8<br>ţ�ư����ϵܣ�<br>Game Over</p>
+<blockquote>
+<p>================================ RESTART ================================</p>
+</blockquote>
+<p>�²���ʲô���֣���1<br>С��Ŷ<br>�²���ʲô���֣���9<br>����Ŷ<br>�²���ʲô���֣���8<br>ţ�ư����ϵܣ�<br>Game Over</p>
+<blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>lxz = input(“�²���ʲô���֣���”)<br>guess = int(lxz)<br>n = 1<br>while guess != 8 and n &lt; 3:<br>    n += 1<br>    if guess &gt; 8:<br>        lxz = input(“����Ŷ,�ٸ���һ�λ��᣺”)<br>        guess = int(lxz)<br>    else:<br>        lxz = input(“С��Ŷ,�ٸ���һ�λ��᣺”)<br>        guess = int(lxz)<br>if guess == 8:<br>    print(“ţ�ư����ϵܣ�”)<br>else:<br>    print(“��ϧ�ˣ�û������Ŷ”)<br>print(“Game Over”)</p>
+<p>���ǲο�����������������ģ�ʹ����and�߼���������</p>
+<p>�����&gt;&gt;&gt;<br>�²���ʲô���֣���1<br>С��Ŷ,�ٸ���һ�λ��᣺9<br>����Ŷ,�ٸ���һ�λ��᣺8<br>ţ�ư����ϵܣ�<br>Game Over</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>================================ RESTART ================================</p>
+</blockquote>
+<p>�²���ʲô���֣���8<br>ţ�ư����ϵܣ�<br>Game Over</p>
+<blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>import random<br>secret = random.randint(1,5)<br>lxz = input(“�²���ʲô���֣���”)<br>guess = int(lxz)<br>n = 1<br>while guess != secret and n &lt; 3:<br>    n += 1<br>    if guess &gt; secret:<br>        lxz = input(‘����Ŷ�����������룺’)<br>        guess = int(lxz)<br>    else:<br>        lxz = input(‘С��Ŷ�����������룺’)<br>        guess = int(lxz)<br>if guess == secret:<br>    print(“ţ�ư����ϵ�”)<br>else:<br>    print(“����������Ŷ”)<br>print(“Game Over”)<br>���ݲ��������޸ĵ�������ֲ²⣨���Լ�����֪������ɶ���֣�</p>
+<p>������£�</p>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+<p>�²���ʲô���֣���1<br>С��Ŷ�����������룺3<br>����Ŷ�����������룺2<br>ţ�ư����ϵ�<br>Game Over</p>
+<blockquote>
+<p>================================ RESTART ================================</p>
+</blockquote>
+<p>�²���ʲô���֣���3<br>С��Ŷ�����������룺5<br>����Ŷ�����������룺4<br>ţ�ư����ϵ�<br>Game Over</p>
+<blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 
       
     </div>
